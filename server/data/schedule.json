@@ -1,0 +1,1827 @@
+[
+  [
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Проектирование и разработка пользовательских интерфейсов",
+          "NameAbbr": "Проектиров"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-25T08:05:00",
+        "EndsAt": "2025-02-25T09:34:59",
+        "StudyPlace": {
+          "Name": "а.  426",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-26T08:05:00",
+        "EndsAt": "2025-02-26T09:34:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Проектирование и разработка пользовательских интерфейсов",
+          "NameAbbr": "Проектиров"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-04T08:05:00",
+        "EndsAt": "2025-03-04T09:34:59",
+        "StudyPlace": {
+          "Name": "а.  108",
+          "OwnerName": "Управление информационными технологиями"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-05T08:05:00",
+        "EndsAt": "2025-03-05T09:34:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Правоведение",
+          "NameAbbr": "Прав."
+        },
+        "TeacherList": [
+          {
+            "Name": "Стрелкова Елена Викторовна",
+            "NameAbbr": "Стрелкова Е. В.",
+            "TeacherGroupName": "Уголовно-правовые дисциплины",
+            "TeacherGroupNameAbbr": "УгПД",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ИСГ [2022] ИГС - Б",
+            "NameAbbr": "БО931ИСГ",
+            "StudentGroupName": "БО931ИСГ",
+            "StudyFieldName": "Интеллектуальные системы в гуманитарной сфере",
+            "StudyFieldNameAbbr": "ИГС",
+            "StudyFieldBranchName": "базовый",
+            "StudyFieldBranchNameAbbr": "Б",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПМИ [2022] ПМиИ (бак) - ММиВМ",
+            "NameAbbr": "БО931ПМИ",
+            "StudentGroupName": "БО931ПМИ",
+            "StudyFieldName": "Прикладная математика и информатика",
+            "StudyFieldNameAbbr": "ПМиИ (бак)",
+            "StudyFieldBranchName": "Математическое моделирование и вычислительная математика",
+            "StudyFieldBranchNameAbbr": "ММиВМ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО921НГД [2023] НД - ЭиО",
+            "NameAbbr": "БО921НГД",
+            "StudentGroupName": "БО921НГД",
+            "StudyFieldName": "Нефтегазовое дело",
+            "StudyFieldNameAbbr": "НД",
+            "StudyFieldBranchName": "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "StudyFieldBranchNameAbbr": "ЭиО",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-24T09:50:00",
+        "EndsAt": "2025-02-24T11:19:59",
+        "StudyPlace": {
+          "Name": "а. 3524",
+          "OwnerName": "Нефтегазовое дело, химия и экология"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лабораторные работы",
+          "NameAbbr": "ЛР"
+        },
+        "CourseSubject": {
+          "Name": "Проектирование и разработка пользовательских интерфейсов",
+          "NameAbbr": "Проектиров"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-25T09:50:00",
+        "EndsAt": "2025-02-25T11:19:59",
+        "StudyPlace": {
+          "Name": "а.  201/1",
+          "OwnerName": "Управление информационными технологиями"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-26T09:50:00",
+        "EndsAt": "2025-02-26T11:19:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Философия виртуальной реальности и искусственного интеллекта",
+          "NameAbbr": "Философия"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рудецкий Олег Андреевич",
+            "NameAbbr": "Рудецкий О. А.",
+            "TeacherGroupName": "Философия, социология и право",
+            "TeacherGroupNameAbbr": "ФСиП",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "МО411ГИГ [2024] Стр. - ГИИГ",
+            "NameAbbr": "МО411ГИГ",
+            "StudentGroupName": "МО411ГИГ",
+            "StudyFieldName": "Строительство",
+            "StudyFieldNameAbbr": "Стр.",
+            "StudyFieldBranchName": "Геотехника и инженерные изыскания в геокриологии",
+            "StudyFieldBranchNameAbbr": "ГИИГ",
+            "FacultyName": "Институт транспортного строительства",
+            "FacultyNameAbbr": "ИТС"
+          }
+        ],
+        "BeginsAt": "2025-02-27T09:50:00",
+        "EndsAt": "2025-02-27T11:19:59",
+        "StudyPlace": {
+          "Name": "а. 3517",
+          "OwnerName": "Строительство"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Философия виртуальной реальности и искусственного интеллекта",
+          "NameAbbr": "Философия"
+        },
+        "TeacherList": [
+          {
+            "Name": "Подкорытова Владислава Александровна",
+            "NameAbbr": "Подкорытова В. А.",
+            "TeacherGroupName": "Философия, социология и право",
+            "TeacherGroupNameAbbr": "ФСиП",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-28T09:50:00",
+        "EndsAt": "2025-02-28T11:19:59",
+        "StudyPlace": {
+          "Name": "а. 3417",
+          "OwnerName": "Физика и теоретическая механика"
+        }
+      }
+    ],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Правоведение",
+          "NameAbbr": "Прав."
+        },
+        "TeacherList": [
+          {
+            "Name": "Стрелкова Елена Викторовна",
+            "NameAbbr": "Стрелкова Е. В.",
+            "TeacherGroupName": "Уголовно-правовые дисциплины",
+            "TeacherGroupNameAbbr": "УгПД",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ИСГ [2022] ИГС - Б",
+            "NameAbbr": "БО931ИСГ",
+            "StudentGroupName": "БО931ИСГ",
+            "StudyFieldName": "Интеллектуальные системы в гуманитарной сфере",
+            "StudyFieldNameAbbr": "ИГС",
+            "StudyFieldBranchName": "базовый",
+            "StudyFieldBranchNameAbbr": "Б",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПМИ [2022] ПМиИ (бак) - ММиВМ",
+            "NameAbbr": "БО931ПМИ",
+            "StudentGroupName": "БО931ПМИ",
+            "StudyFieldName": "Прикладная математика и информатика",
+            "StudyFieldNameAbbr": "ПМиИ (бак)",
+            "StudyFieldBranchName": "Математическое моделирование и вычислительная математика",
+            "StudyFieldBranchNameAbbr": "ММиВМ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО921НГД [2023] НД - ЭиО",
+            "NameAbbr": "БО921НГД",
+            "StudentGroupName": "БО921НГД",
+            "StudyFieldName": "Нефтегазовое дело",
+            "StudyFieldNameAbbr": "НД",
+            "StudyFieldBranchName": "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "StudyFieldBranchNameAbbr": "ЭиО",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-03T09:50:00",
+        "EndsAt": "2025-03-03T11:19:59",
+        "StudyPlace": {
+          "Name": "а. 3524",
+          "OwnerName": "Нефтегазовое дело, химия и экология"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лабораторные работы",
+          "NameAbbr": "ЛР"
+        },
+        "CourseSubject": {
+          "Name": "Проектирование и разработка пользовательских интерфейсов",
+          "NameAbbr": "Проектиров"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-04T09:50:00",
+        "EndsAt": "2025-03-04T11:19:59",
+        "StudyPlace": {
+          "Name": "а.  201/1",
+          "OwnerName": "Управление информационными технологиями"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-05T09:50:00",
+        "EndsAt": "2025-03-05T11:19:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Философия виртуальной реальности и искусственного интеллекта",
+          "NameAbbr": "Философия"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рудецкий Олег Андреевич",
+            "NameAbbr": "Рудецкий О. А.",
+            "TeacherGroupName": "Философия, социология и право",
+            "TeacherGroupNameAbbr": "ФСиП",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "МО411ГИГ [2024] Стр. - ГИИГ",
+            "NameAbbr": "МО411ГИГ",
+            "StudentGroupName": "МО411ГИГ",
+            "StudyFieldName": "Строительство",
+            "StudyFieldNameAbbr": "Стр.",
+            "StudyFieldBranchName": "Геотехника и инженерные изыскания в геокриологии",
+            "StudyFieldBranchNameAbbr": "ГИИГ",
+            "FacultyName": "Институт транспортного строительства",
+            "FacultyNameAbbr": "ИТС"
+          }
+        ],
+        "BeginsAt": "2025-03-06T09:50:00",
+        "EndsAt": "2025-03-06T11:19:59",
+        "StudyPlace": {
+          "Name": "а. 3517",
+          "OwnerName": "Строительство"
+        }
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Системы искусственного интеллекта",
+          "NameAbbr": "СИИ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Ланец Сергей Андреевич",
+            "NameAbbr": "Ланец С. А.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ИСГ [2022] ИГС - Б",
+            "NameAbbr": "БО931ИСГ",
+            "StudentGroupName": "БО931ИСГ",
+            "StudyFieldName": "Интеллектуальные системы в гуманитарной сфере",
+            "StudyFieldNameAbbr": "ИГС",
+            "StudyFieldBranchName": "базовый",
+            "StudyFieldBranchNameAbbr": "Б",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПМИ [2022] ПМиИ (бак) - ММиВМ",
+            "NameAbbr": "БО931ПМИ",
+            "StudentGroupName": "БО931ПМИ",
+            "StudyFieldName": "Прикладная математика и информатика",
+            "StudyFieldNameAbbr": "ПМиИ (бак)",
+            "StudyFieldBranchName": "Математическое моделирование и вычислительная математика",
+            "StudyFieldBranchNameAbbr": "ММиВМ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-24T11:35:00",
+        "EndsAt": "2025-02-24T13:04:59",
+        "StudyPlace": {
+          "Name": "а.  420",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Математическое и имитационное моделирование",
+          "NameAbbr": "МиИмМ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рукавишников Алексей Викторович",
+            "NameAbbr": "Рукавишников А. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-25T11:35:00",
+        "EndsAt": "2025-02-25T13:04:59",
+        "StudyPlace": {
+          "Name": "а.  422",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-26T11:35:00",
+        "EndsAt": "2025-02-26T13:04:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Элективные курсы по физической культуре и спорту",
+          "NameAbbr": "Эл Ф-ра и"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-27T11:35:00",
+        "EndsAt": "2025-02-27T13:04:59",
+        "StudyPlace": {
+          "Name": "Спортивный комплекс",
+          "OwnerName": "ДВГУПС"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Правоведение",
+          "NameAbbr": "Прав."
+        },
+        "TeacherList": [
+          {
+            "Name": "Стрелкова Елена Викторовна",
+            "NameAbbr": "Стрелкова Е. В.",
+            "TeacherGroupName": "Уголовно-правовые дисциплины",
+            "TeacherGroupNameAbbr": "УгПД",
+            "FacultyName": "Социально-гуманитарный институт",
+            "FacultyNameAbbr": "СГИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-28T11:35:00",
+        "EndsAt": "2025-02-28T13:04:59",
+        "StudyPlace": {
+          "Name": "а. 3228",
+          "OwnerName": "Транспортно-технологические комплексы"
+        }
+      }
+    ],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПИА [2022] ИиВТ (бак) - ПИА",
+            "NameAbbr": "БО931ПИА",
+            "StudentGroupName": "БО931ПИА",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Программирование интеллектуальных и автоматизированных систем",
+            "StudyFieldBranchNameAbbr": "ПИА",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ТВР [2022] ИиВТ (бак) - ТВРиД",
+            "NameAbbr": "БО931ТВР",
+            "StudentGroupName": "БО931ТВР",
+            "StudyFieldName": "Информатика и вычислительная техника",
+            "StudyFieldNameAbbr": "ИиВТ (бак)",
+            "StudyFieldBranchName": "Технологии виртуальной и дополненной реальности",
+            "StudyFieldBranchNameAbbr": "ТВРиД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          },
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-03T11:35:00",
+        "EndsAt": "2025-03-03T13:04:59",
+        "StudyPlace": {
+          "Name": "а.  418",
+          "OwnerName": "Электротехника, электроника и электромеханика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Лекции",
+          "NameAbbr": "Л"
+        },
+        "CourseSubject": {
+          "Name": "Математическое и имитационное моделирование",
+          "NameAbbr": "МиИмМ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рукавишников Алексей Викторович",
+            "NameAbbr": "Рукавишников А. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-04T11:35:00",
+        "EndsAt": "2025-03-04T13:04:59",
+        "StudyPlace": {
+          "Name": "а.  422",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-05T11:35:00",
+        "EndsAt": "2025-03-05T13:04:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Элективные курсы по физической культуре и спорту",
+          "NameAbbr": "Эл Ф-ра и"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-06T11:35:00",
+        "EndsAt": "2025-03-06T13:04:59",
+        "StudyPlace": {
+          "Name": "Спортивный комплекс",
+          "OwnerName": "ДВГУПС"
+        }
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Системы искусственного интеллекта",
+          "NameAbbr": "СИИ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Ланец Сергей Андреевич",
+            "NameAbbr": "Ланец С. А.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-24T13:35:00",
+        "EndsAt": "2025-02-24T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  433",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Математическое и имитационное моделирование",
+          "NameAbbr": "МиИмМ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рукавишников Алексей Викторович",
+            "NameAbbr": "Рукавишников А. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-25T13:35:00",
+        "EndsAt": "2025-02-25T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  426",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-26T13:35:00",
+        "EndsAt": "2025-02-26T15:04:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Системы искусственного интеллекта",
+          "NameAbbr": "СИИ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Ланец Сергей Андреевич",
+            "NameAbbr": "Ланец С. А.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-27T13:35:00",
+        "EndsAt": "2025-02-27T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  433",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Гладкий Данила Витальевич",
+            "NameAbbr": "Гладкий Д. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-03T13:35:00",
+        "EndsAt": "2025-03-03T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  437а",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Математическое и имитационное моделирование",
+          "NameAbbr": "МиИмМ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рукавишников Алексей Викторович",
+            "NameAbbr": "Рукавишников А. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-04T13:35:00",
+        "EndsAt": "2025-03-04T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  426",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-05T13:35:00",
+        "EndsAt": "2025-03-05T15:04:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Системы искусственного интеллекта",
+          "NameAbbr": "СИИ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Ланец Сергей Андреевич",
+            "NameAbbr": "Ланец С. А.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-06T13:35:00",
+        "EndsAt": "2025-03-06T15:04:59",
+        "StudyPlace": {
+          "Name": "а.  433",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Элективные курсы по физической культуре и спорту",
+          "NameAbbr": "Эл Ф-ра и"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-25T15:15:00",
+        "EndsAt": "2025-02-25T16:44:59",
+        "StudyPlace": {
+          "Name": "Спортивный комплекс",
+          "OwnerName": "ДВГУПС"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-26T15:15:00",
+        "EndsAt": "2025-02-26T16:44:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Текущие, дополнительные консультации",
+          "NameAbbr": "ТДК"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Гладкий Данила Витальевич",
+            "NameAbbr": "Гладкий Д. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-02-28T15:15:00",
+        "EndsAt": "2025-02-28T16:44:59",
+        "StudyPlace": {
+          "Name": "а.  437а",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    []
+  ],
+  [
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Гладкий Данила Витальевич",
+            "NameAbbr": "Гладкий Д. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-03T15:15:00",
+        "EndsAt": "2025-03-03T16:44:59",
+        "StudyPlace": {
+          "Name": "а.  428",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Военная подготовка",
+          "NameAbbr": "ВП"
+        },
+        "TeacherList": [],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-05T15:15:00",
+        "EndsAt": "2025-03-05T16:44:59",
+        "StudyPlace": {
+          "Name": "Учебный военный центр",
+          "OwnerName": "Факультет военного обучения"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Гладкий Данила Витальевич",
+            "NameAbbr": "Гладкий Д. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-06T15:15:00",
+        "EndsAt": "2025-03-06T16:44:59",
+        "StudyPlace": {
+          "Name": "а.  101",
+          "OwnerName": "Управление информационными технологиями"
+        }
+      }
+    ],
+    [
+      {
+        "CourseType": {
+          "Name": "Текущие, дополнительные консультации",
+          "NameAbbr": "ТДК"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Исаев Михаил Сергеевич",
+            "NameAbbr": "Исаев М. С.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-07T15:15:00",
+        "EndsAt": "2025-03-07T16:44:59",
+        "StudyPlace": {
+          "Name": "а.  3430",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Текущие, дополнительные консультации",
+          "NameAbbr": "ТДК"
+        },
+        "CourseSubject": {
+          "Name": "Математическое и имитационное моделирование",
+          "NameAbbr": "МиИмМ"
+        },
+        "TeacherList": [
+          {
+            "Name": "Рукавишников Алексей Викторович",
+            "NameAbbr": "Рукавишников А. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-04T16:55:00",
+        "EndsAt": "2025-03-04T18:24:59",
+        "StudyPlace": {
+          "Name": "а.  437а",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+]
