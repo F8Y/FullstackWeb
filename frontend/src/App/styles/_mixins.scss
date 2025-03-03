@@ -1,0 +1,10 @@
+@import 'colors';
+@mixin button-border{
+  border-top: 6px solid $secondary;
+  border-bottom: 6px solid $secondary;
+  border-left: 25px solid $secondary;
+  border-right: 25px solid $secondary;
+  border-radius: 9999px;
+  background-color: $secondary;
+  box-shadow: 0 0 20px 4px $secondary;
+}

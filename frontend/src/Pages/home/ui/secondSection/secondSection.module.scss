@@ -1,0 +1,24 @@
+@import '../../../../App/styles/colors';
+@import '../../../../App/styles/variables';
+
+.secondSection{
+
+   &__text{
+     display: flex;
+     flex-direction: column;
+     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+     $homePage--img center/cover no-repeat;
+     justify-content: center;
+     min-height: 500px;
+
+     padding: 20px 0 0 75px;   /*вверх вправо вниз влево*/
+
+     & span{
+       color: $secondary;
+     }
+
+     & p{
+       line-height: 1.3;
+     }
+   }
+}

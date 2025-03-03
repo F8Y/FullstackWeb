@@ -1,0 +1,41 @@
+@import '../../App/styles/mixins';
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  gap: 55vh;
+  padding-top: 5px;
+
+  &__image {
+    width: 80px;
+    height: 50px;
+    padding: 8px 0 0 0;
+  }
+
+  &__navigationBar{
+
+    &--list{
+      display: flex;
+      gap: 20px;
+      list-style: none;
+
+      & li{
+        display: flex;
+        align-items: center;
+
+        a{
+          text-decoration: none;
+          color: #ffffff;
+        }
+
+        &:last-child{
+          @include button-border;
+
+          & a{
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

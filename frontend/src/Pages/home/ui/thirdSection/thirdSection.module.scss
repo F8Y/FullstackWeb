@@ -1,0 +1,58 @@
+@import '../../../../App/styles/colors';
+@import '../../../../App/styles/variables';
+@import '../../../../App/styles/mixins';
+
+.thirdSection {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  z-index: 3;
+  //transform: translateY(calc(#{var(--scrollY)} / 25));
+  overflow: hidden;
+
+
+  &__image {
+    margin-left: -290px;
+    transform: translateX(calc(#{var(--scrollY)} / 15));
+
+    &--img {
+      width: 98vh;
+      overflow: hidden;
+      margin-right: 50px;
+    }
+  }
+
+  &__text {
+    min-height: 48vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px #000000;
+    padding-left: 200px;
+    padding-top: 60px;
+    align-items: flex-start;
+    //transform: translateX(calc(#{var(--scrollY)} / 20));
+
+
+
+    & h2 {
+      line-height: 1.5;
+
+      & span {
+        color: $secondary;
+      }
+    }
+
+     & p {
+      line-height: 1.3;
+       margin-right: 150px;
+    }
+
+    &--link{
+      @include button-border;
+
+      text-decoration: none;
+      color: #000000;
+      margin-top: 20px;
+    }
+  }
+}
