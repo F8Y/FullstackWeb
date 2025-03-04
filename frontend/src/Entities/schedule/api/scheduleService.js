@@ -18,7 +18,7 @@ export const fetchStructuredSchedule = async () => {
 };
 
 // Функция для сохранения данных в JSON-файл
-export const saveScheduleToFile = (data, filename = 'schedule.json') => {
+export const saveScheduleToFile = (data, filename = 'structuredSchedule.json') => {
     const blob = new Blob([JSON.stringify(data, null, 2)], {
         type: 'application/json',
     });
