@@ -154,7 +154,47 @@
         }
       }
     ],
-    [],
+    [
+      {
+        "CourseType": {
+          "Name": "Практика",
+          "NameAbbr": "П"
+        },
+        "CourseSubject": {
+          "Name": "Web-программирование",
+          "NameAbbr": "Web прогр"
+        },
+        "TeacherList": [
+          {
+            "Name": "Гладкий Данила Витальевич",
+            "NameAbbr": "Гладкий Д. В.",
+            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
+            "TeacherGroupNameAbbr": "ВТиКГ",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "StudentList": [
+          {
+            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
+            "NameAbbr": "БО931ПРИ",
+            "StudentGroupName": "БО931ПРИ",
+            "StudyFieldName": "Прикладная информатика",
+            "StudyFieldNameAbbr": "ПИ(бак)",
+            "StudyFieldBranchName": "Прикладная информатика в дизайне",
+            "StudyFieldBranchNameAbbr": "ПИвД",
+            "FacultyName": "Естественно-научный институт",
+            "FacultyNameAbbr": "ЕНИ"
+          }
+        ],
+        "BeginsAt": "2025-03-06T08:05:00",
+        "EndsAt": "2025-03-06T09:34:59",
+        "StudyPlace": {
+          "Name": "а.  426",
+          "OwnerName": "Вычислительная техника и компьютерная графика"
+        }
+      }
+    ],
     [],
     [],
     []
@@ -1609,47 +1649,7 @@
         }
       }
     ],
-    [
-      {
-        "CourseType": {
-          "Name": "Практика",
-          "NameAbbr": "П"
-        },
-        "CourseSubject": {
-          "Name": "Web-программирование",
-          "NameAbbr": "Web прогр"
-        },
-        "TeacherList": [
-          {
-            "Name": "Гладкий Данила Витальевич",
-            "NameAbbr": "Гладкий Д. В.",
-            "TeacherGroupName": "Вычислительная техника и компьютерная графика",
-            "TeacherGroupNameAbbr": "ВТиКГ",
-            "FacultyName": "Естественно-научный институт",
-            "FacultyNameAbbr": "ЕНИ"
-          }
-        ],
-        "StudentList": [
-          {
-            "Name": "БО931ПРИ [2022] ПИ(бак) - ПИвД",
-            "NameAbbr": "БО931ПРИ",
-            "StudentGroupName": "БО931ПРИ",
-            "StudyFieldName": "Прикладная информатика",
-            "StudyFieldNameAbbr": "ПИ(бак)",
-            "StudyFieldBranchName": "Прикладная информатика в дизайне",
-            "StudyFieldBranchNameAbbr": "ПИвД",
-            "FacultyName": "Естественно-научный институт",
-            "FacultyNameAbbr": "ЕНИ"
-          }
-        ],
-        "BeginsAt": "2025-03-06T15:15:00",
-        "EndsAt": "2025-03-06T16:44:59",
-        "StudyPlace": {
-          "Name": "а.  101",
-          "OwnerName": "Управление информационными технологиями"
-        }
-      }
-    ],
+    [],
     [
       {
         "CourseType": {
