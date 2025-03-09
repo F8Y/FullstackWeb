@@ -17,6 +17,10 @@ export class ScheduleController {
 
   @Get('structured')
   async getStructuredSchedule() {
+    const saveResult = await this.scheduleService.fetchAndSaveSchedule();
+    if (!saveResult.success) {
+      return saveResult;
+    }
     return this.scheduleService.getStructuredSchedule();
   }
 }
