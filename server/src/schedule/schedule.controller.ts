@@ -10,10 +10,10 @@ export class ScheduleController {
     return 'Hello from Schedule!';
   }
 
-  @Get('save')
-  async getSchedule() {
-    return this.scheduleService.fetchAndSaveSchedule();
-  }
+  // @Get('save')
+  // async getSchedule() {
+  //   return this.scheduleService.fetchAndSaveSchedule();
+  // }
 
   @Get('structured')
   async getStructuredSchedule() {
