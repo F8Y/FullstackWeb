@@ -3,6 +3,7 @@ import { Header } from "../Widgets/header/header.jsx";
 import { Footer } from "../Widgets/footer/footer.jsx";
 import { AppRoutes } from "../routes/appRoutes.jsx";
 
+
 export const App = () => {
     const [scrollY, setScrollY] = useState(0);
 
@@ -22,10 +23,12 @@ export const App = () => {
     }, [scrollY]);
 
     return (
-        <>
+        <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", }}>
             <Header/>
+            <main style={{ flex: 1 }}>
             <AppRoutes scrollY={scrollY} />
+            </main>
             <Footer/>
-        </>
+        </div>
     );
 };

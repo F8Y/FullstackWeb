@@ -2,6 +2,7 @@ import s from './footer.module.scss'
 
 export const Footer = () => {
     return (
+
         <div>
             <footer className={s['footer']}>
             <div className={s['footer__contacts']}>

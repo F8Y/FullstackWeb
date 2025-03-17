@@ -1,8 +1,13 @@
 @import '../../App/styles/colors';
 
+* {
+  margin-bottom: 0;
+}
+
 .footer{
   padding-top: 20px;
   background-color: #000000;
+  padding-bottom: 20px;
 
   &__contacts{
     display: flex;
