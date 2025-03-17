@@ -1,17 +1,19 @@
-import { parseISO, getISOWeek, format } from 'date-fns';
+import { parseISO, getISOWeek, format, getDay } from 'date-fns';
 
 export interface Pair {
   pairNumber: number;
-  type: string; // тип пары
-  subject: string; // название предмета
-  teacher: string; // преподаватель
-  room: string; // аудитория
-  time: string; // время в формате: 00:00 - 00:00
+  type: string;      // тип занятия (Лекции, Практика, Лабораторные и т.д.)
+  subject: string;   // название предмета
+  teacher: string;   // преподаватель
+  room: string;      // аудитория
+  time: string;      // временной слот (например, "8:05 - 9:35")
 }
 
 export interface DaySchedule {
   numerator: Pair[];
   denominator: Pair[];
+  // Дополнительно можно добавить консультации, если потребуется:
+  consultations?: Pair[];
 }
 
 export interface StructuredSchedule {
@@ -24,6 +26,7 @@ export interface StructuredSchedule {
   Sunday: DaySchedule;
 }
 
+// Фиксированные временные слоты
 const fixedTime = [
   '8:05 - 9:35',
   '9:50 - 11:20',
@@ -33,86 +36,84 @@ const fixedTime = [
   '16:55 - 18:25',
 ];
 
-// Шаблон расписания по умолчанию
-
-const defaultTemplates: {
-  [day: string]: {
-    numerator?: Array<{ type: string; subject: string } | null>;
-    denominator?: Array<{ type: string; subject: string } | null>;
-  }
-} = {
-  Monday: {
-    numerator: [
-      null,
-      { type: 'Лекция', subject: 'Правоведение' },
-      { type: 'Лекция', subject: 'Системы искусственного интеллекта' },
-      { type: 'Практика', subject: 'Системы искусственного интеллекта' },
+// Шаблоны по умолчанию для числителя и знаменателя
+const defaultTemplates = {
+  numerator: {
+    Monday: [
+      /* 1 пара отсутствует */
+      { pairNumber: 2, type: 'Лекции', subject: 'Правоведение', teacher: 'Стрелкова Елена Викторовна', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Лекции', subject: 'Системы искусственного интеллекта', teacher: 'Ланец Сергей Андреевич', room: '', time: fixedTime[2] },
+      { pairNumber: 4, type: 'Практика', subject: 'Системы искусственного интеллекта', teacher: 'Ланец Сергей Андреевич', room: '', time: fixedTime[3] },
     ],
-    denominator: [
-      null,
-      { type: 'Лекция', subject: 'Правоведение' },
-      { type: 'Лекция', subject: 'Web-программирование' },
-    ]
-  },
-  Tuesday: {
-    numerator: [
-      { type: 'Лекция', subject: 'Проектирование и разработка пользовательских интерфейсов' },
-      { type: 'Практика', subject: 'Проектирование и разработка пользовательских интерфейсов' },
-      { type: 'Лекция', subject: 'Математическое и имитационное моделирование' },
-      { type: 'Практика', subject: 'Математическое и имитационное моделирование' },
-      { type: 'Элективные курсы', subject: 'по физической культуре и спорту' },
+    Tuesday: [
+      { pairNumber: 1, type: 'Лекции', subject: 'Проектирование и разработка пользовательских интерфейсов', teacher: 'Исаев Михаил Сергеевич', room: '', time: fixedTime[0] },
+      { pairNumber: 2, type: 'Лабораторные работы', subject: 'Проектирование и разработка пользовательских интерфейсов', teacher: 'Исаев Михаил Сергеевич', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Лекции', subject: 'Математическое и имитационное моделирование', teacher: 'Рукавишников Алексей Викторович', room: '', time: fixedTime[2] },
+      { pairNumber: 4, type: 'Практика', subject: 'Математическое и имитационное моделирование', teacher: 'Рукавишников Алексей Викторович', room: '', time: fixedTime[3] },
+      { pairNumber: 5, type: 'Практика', subject: 'Элективные курсы по физической культуре и спорту', teacher: '', room: '', time: fixedTime[4] },
     ],
-    denominator: [
-      { type: 'Практика', subject: 'Проектирование и разработка пользовательских интерфейсов' },
-      { type: 'Лекция', subject: 'Математическое и имитационное моделирование' },
-      { type: 'Практика', subject: 'Математическое и имитационное моделирование' }
-    ]
-  },
-  Wednesday: {
-    numerator: Array(5).fill({ type: 'Практика', subject: 'Военная подготовка' }),
-    denominator: Array(5).fill({ type: 'Практика', subject: 'Военная подготовка' })
-  },
-  Thursday: {
-    numerator: [
-      { type: 'Практика', subject: 'Web-программирование' },
-      { type: 'Лекция', subject: 'Философия виртуальной реальности и искусственного интеллекта' },
-      { type: 'Практика', subject: 'Элективные курсы по физической культуре и спорту' },
-      { type: 'Практика', subject: 'Системы искусственного интеллекта' },
+    Wednesday: Array(5).fill(null).map((_, i) => ({
+      pairNumber: i + 1,
+      type: 'Практика',
+      subject: 'Военная подготовка',
+      teacher: '',
+      room: i === 0 ? 'Учебный военный центр' : 'Учебный военный центр',
+      time: fixedTime[i],
+    })),
+    Thursday: [
+      { pairNumber: 1, type: 'Практика', subject: 'Web-программирование', teacher: 'Гладкий Данила Витальевич', room: '', time: fixedTime[0] },
+      { pairNumber: 2, type: 'Лекции', subject: 'Философия виртуальной реальности и искусственного интеллекта', teacher: 'Рудецкий Олег Андреевич', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Практика', subject: 'Элективные курсы по физической культуре и спорту', teacher: '', room: '', time: fixedTime[2] },
+      { pairNumber: 4, type: 'Практика', subject: 'Системы искусственного интеллекта', teacher: 'Ланец Сергей Андреевич', room: '', time: fixedTime[3] },
     ],
-    denominator: [
-      { type: 'Практика', subject: 'Web-программирование' },
-      { type: 'Лекция', subject: 'Философия виртуальной реальности и искусственного интеллекта' },
-      { type: "Практика", subject: 'Элетивные курсы по физической культуре и спорту' },
-      { type: 'Практика', subject: 'Системы искусственного интеллекта' },
-    ]
-  },
-  Friday: {
-    numerator: [
-      { type: 'Практика', subject: 'Web-программирование' },
-      { type: "Практика", subject: 'Философия виртуальной реальности и искусственного интеллекта' },
-      { type: 'Практика', subject: 'Правоведение' },
+    Friday: [
+      { pairNumber: 1, type: 'Практика', subject: 'Web-программирование', teacher: 'Гладкий Данила Витальевич', room: '', time: fixedTime[0] },
+      { pairNumber: 2, type: 'Практика', subject: 'Философия виртуальной реальности и искусственного интеллекта', teacher: 'Подкорытова Владислава Александровна', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Практика', subject: 'Правоведение', teacher: 'Стрелкова Елена Викторовна', room: '', time: fixedTime[2] },
     ],
-    denominator: []
+    Saturday: [],
+    Sunday: [],
   },
-  Saturday: {
-    numerator: [],
-    denominator: []
-  },
-  Sunday: {
-    numerator: [],
-    denominator: []
+  denominator: {
+    Monday: [
+      { pairNumber: 2, type: 'Лекции', subject: 'Правоведение', teacher: 'Стрелкова Елена Викторовна', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Лекции', subject: 'Web-программирование', teacher: 'Исаев Михаил Сергеевич', room: '', time: fixedTime[2] },
+    ],
+    Tuesday: [
+      { pairNumber: 1, type: 'Практика', subject: 'Проектирование и разработка пользовательских интерфейсов', teacher: 'Исаев Михаил Сергеевич', room: '', time: fixedTime[0] },
+      { pairNumber: 2, type: 'Лабораторные работы', subject: 'Проектирование и разработка пользовательских интерфейсов', teacher: 'Исаев Михаил Сергеевич', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Лекции', subject: 'Математическое и имитационное моделирование', teacher: 'Рукавишников Алексей Викторович', room: '', time: fixedTime[2] },
+      { pairNumber: 4, type: 'Практика', subject: 'Математическое и имитационное моделирование', teacher: 'Рукавишников Алексей Викторович', room: '', time: fixedTime[3] },
+    ],
+    Wednesday: Array(5).fill(null).map((_, i) => ({
+      pairNumber: i + 1,
+      type: 'Практика',
+      subject: 'Военная подготовка',
+      teacher: '',
+      room: 'Учебный военный центр',
+      time: fixedTime[i],
+    })),
+    Thursday: [
+      { pairNumber: 1, type: 'Практика', subject: 'Web-программирование', teacher: 'Гладкий Данила Витальевич', room: '', time: fixedTime[0] },
+      { pairNumber: 2, type: 'Лекции', subject: 'Философия виртуальной реальности и искусственного интеллекта', teacher: 'Рудецкий Олег Андреевич', room: '', time: fixedTime[1] },
+      { pairNumber: 3, type: 'Практика', subject: 'Элективные курсы по физической культуре и спорту', teacher: '', room: '', time: fixedTime[2] },
+      { pairNumber: 4, type: 'Практика', subject: 'Системы искусственного интеллекта', teacher: 'Ланец Сергей Андреевич', room: '', time: fixedTime[3] },
+    ],
+    Friday: [],
+    Saturday: [],
+    Sunday: [],
   }
 };
 
-// Глубокое клонирование шаблона, чтобы сохранить исходный темплейт
-function cloneTemplate(template: any){
-  return template ? JSON.parse(JSON.stringify(template)) : null;
+// Функция глубокого клонирования шаблона
+function cloneTemplate<T>(template: T): T {
+  return JSON.parse(JSON.stringify(template));
 }
 
-export const parseSchedule = (scheduleData: any): StructuredSchedule => {
-  // Инициализация итоговой структуры
+// Инициализация итогового расписания на неделю
+function initializeSchedule(): StructuredSchedule {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  const structuredSchedule: StructuredSchedule = {
+  const schedule: StructuredSchedule = {
     Monday: { numerator: [], denominator: [] },
     Tuesday: { numerator: [], denominator: [] },
     Wednesday: { numerator: [], denominator: [] },
@@ -122,72 +123,110 @@ export const parseSchedule = (scheduleData: any): StructuredSchedule => {
     Sunday: { numerator: [], denominator: [] },
   };
 
-  // Заполнение значениями по умолчанию + приведение к Pair
   days.forEach(day => {
-    const defaultNum = defaultTemplates[day]?.numerator ? cloneTemplate(defaultTemplates[day].numerator) : [];
-    const defaultDen = defaultTemplates[day]?.denominator ? cloneTemplate(defaultTemplates[day].denominator) : [];
-    structuredSchedule[day].numerator = defaultNum.map((def: any, idx: number) => {
-      if (def === null) return null;
-      return {
-        pairNumber: idx + 1,
-        type: def.type || "",
-        subject: def.subject || "",
-        teacher: "",
-        room: "",
-        time: fixedTime[idx] || "",
-      };
-    }).filter(Boolean);
-    structuredSchedule[day].denominator= defaultDen.map((def: any, idx: number) => {
-      if (def === null) return null;
-      return {
-        pairNumber: idx + 1,
-        type: def.type || "",
-        subject: def.subject || "",
-        teacher: "",
-        room: "",
-        time: fixedTime[idx] || "",
-      };
-    }).filter(Boolean);
+    schedule[day].numerator = cloneTemplate(defaultTemplates.numerator[day] || []);
+    schedule[day].denominator = cloneTemplate(defaultTemplates.denominator[day] || []);
+    // Если нужно, можно инициализировать консультации как пустой массив:
+    schedule[day].consultations = [];
   });
 
-  //Обработка данных, полученных с ДВГУПСа, индекс 0 - понедельник, 6 - воскресенье
-  scheduleData.forEach((week: any[]) => {
-    week.forEach((dayData: any[], dayIndex: number) => {
-      const dayName = days[dayIndex];
-      dayData.forEach((pairData: any, pairIdx: number) => {
-        const date = parseISO(pairData.BeginsAt);
-        const weekNumber = getISOWeek(date);
-        const weekType = (weekNumber % 2 === 0) ? 'numerator' : 'denominator';
+  return schedule;
+}
 
+// Функция для определения номера пары по времени начала
+function getSlotIndex(startTime: string): number {
+  const [hours, minutes] = startTime.split(':');
+  const formattedStart = `${+hours}:${minutes}`;
+  return fixedTime.findIndex(slot => slot.startsWith(formattedStart));
+}
+
+// Новая функция парсинга, которая обновляет стандартное расписание данными из API
+export const parseSchedule = (apiData: any[]): StructuredSchedule => {
+  const schedule = initializeSchedule();
+  // apiData – это массив недель, где каждая неделя – массив дней
+  apiData.forEach(week => {
+    week.forEach((dayData: any[], dayIndex: number) => {
+      // Определяем имя дня по индексу (0 – Monday, 6 – Sunday)
+      const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      const dayName = days[dayIndex];
+      dayData.forEach((lesson: any) => {
+        const date = parseISO(lesson.BeginsAt);
+        // Определяем тип недели: используем правило (например, если ISO week % 2 === 0, то числитель, иначе знаменатель)
+        const weekNumber = getISOWeek(date);
+        const weekType: 'numerator' | 'denominator' = (weekNumber % 2 === 0) ? 'numerator' : 'denominator';
+
+        // Определяем слот по времени начала
         const startTime = format(date, 'H:mm');
-        let slotIndex = fixedTime.findIndex(timeStr => {
-          const [expectedStart] = timeStr.split(" - ");
-          return expectedStart === startTime;
-        });
-        if (slotIndex === -1){
-          slotIndex = pairIdx;
+        let slotIndex = getSlotIndex(startTime);
+        if (slotIndex === -1) {
+          // Если время не соответствует ни одному фиксированному слоту, можно использовать порядковый номер урока
+          slotIndex = 0;
         }
         const pairNumber = slotIndex + 1;
 
-        const pairObj: Pair = {
+        // Извлекаем данные из API (с обнулением пробелов)
+        const teacher = (lesson.TeacherList && lesson.TeacherList.length > 0 && lesson.TeacherList[0].Name.trim()) || '';
+        const room = (lesson.StudyPlace && lesson.StudyPlace.Name && lesson.StudyPlace.Name.trim()) || '';
+        const subject = (lesson.CourseSubject && lesson.CourseSubject.Name.trim()) || '';
+        const type = (lesson.CourseType && lesson.CourseType.Name.trim()) || '';
+
+        // Формируем объект пары
+        const apiPair: Pair = {
           pairNumber,
-          type: pairData.CourseType?.Name || "",
-          subject: pairData.CourseSubject?.Name || "",
-          teacher: (pairData.TeacherList && pairData.TeacherList.length > 0) ? pairData.TeacherList[0].Name : "",
-          room: pairData.StudyPlace?.Name || "",
-          time: fixedTime[slotIndex] || "",
+          type,
+          subject,
+          teacher,
+          room,
+          time: fixedTime[slotIndex] || '',
         };
 
-        const target = structuredSchedule[dayName][weekType];
-        const existingIndex = target.findIndex(p => p.pairNumber === pairNumber);
-        if (existingIndex !== 1) {
-          target[existingIndex] = pairObj;
+        // Логика обновления:
+        // Если данные из API содержат существенную информацию (например, teacher или room не пусты),
+        // то обновляем соответствующий слот в шаблоне.
+        if (teacher || room) {
+          const target = schedule[dayName][weekType];
+          // Найдём индекс записи по номеру пары в шаблоне
+          const index = target.findIndex(pair => pair.pairNumber === pairNumber);
+          if (index !== -1) {
+            // Обновляем существующую запись – заменяем только если API предоставляет ненулевые значения
+            target[index] = {
+              ...target[index],
+              type: type || target[index].type,
+              subject: subject || target[index].subject,
+              teacher: teacher || target[index].teacher,
+              room: room || target[index].room,
+              time: fixedTime[slotIndex] || target[index].time,
+            };
+          } else {
+            // Если записи нет (например, консультация или дополнительное занятие), добавляем её
+            target.push(apiPair);
+            target.sort((a, b) => a.pairNumber - b.pairNumber);
+          }
         } else {
-          target.push(pairObj);
-          target.sort((a, b) => a.pairNumber - b.pairNumber);
+          // Если данные из API практически пустые (например, пустой teacher и room), можно не обновлять дефолт
+          // или, если требуется, добавить как консультацию:
+          if (dayName !== 'Sunday') {
+            schedule[dayName].consultations?.push(apiPair);
+          }
         }
       });
     });
   });
-  return structuredSchedule;
+
+  // Фильтруем итоговое расписание: убираем «пустые» пары (если, например, в записи присутствует только subject, а остальные поля пустые)
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  days.forEach(day => {
+    ['numerator', 'denominator'].forEach((weekType: 'numerator' | 'denominator') => {
+      schedule[day][weekType] = schedule[day][weekType].filter(pair => {
+        // Если хотя бы одно из полей teacher или room заполнено, или если пара относится к консультациям – оставляем
+        return pair.teacher.trim() !== '' || pair.room.trim() !== '';
+      });
+    });
+    // Если консультации пустые, удаляем свойство (необязательно)
+    if (schedule[day].consultations && schedule[day].consultations.length === 0) {
+      delete schedule[day].consultations;
+    }
+  });
+
+  return schedule;
 };
