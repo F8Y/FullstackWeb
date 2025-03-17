@@ -1,0 +1,39 @@
+@use '../styles/reusables' as styles;
+
+.dropdownBlock {
+  border: 1px solid rgba(144, 144, 144, 0.11);
+  margin: 8px 0 0 0;
+  border-radius: 4px;
+  width: 100vh;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: styles.$list-primary;
+    gap: 20px;
+
+    &--number {
+      font-size: 50px;
+      font-weight: lighter;
+      background: rgba(204, 204, 204, 0.13);
+      padding: 0 10px 0 10px;
+      margin-right: 10px;
+      min-width: 60px;
+      min-height: 60px;
+      text-align: center;
+
+    }
+
+    span:last-child {
+      font-size: 25px;
+      font-weight: bolder;
+
+    }
+  }
+
+  &__items {
+    padding: 8px 16px;
+
+  }
+}
