@@ -1,0 +1,19 @@
+@use '../../Shared/styles/reusables' as styles;
+
+.faq {
+  display: block;
+  margin-bottom: 10px;
+
+  h1 {
+    margin-left: 38vh;
+    margin-bottom: 25px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+  }
+}
