@@ -1,6 +1,4 @@
-@import "mixins";
-@import 'colors';
-@import 'variables';
+@use 'colors' as c;
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -21,7 +19,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: $primary;
+  background-color: c.$primary;
 }
 
 .link{
@@ -31,4 +29,10 @@ body{
 
 .linkActive{
   color: #13FB2A
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

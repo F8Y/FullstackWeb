@@ -1,6 +1,5 @@
-@import '../../../../App/styles/colors';
-@import '../../../../App/styles/variables';
-@import '../../../../App/styles/mixins';
+@use '../../../../App/styles/colors' as c;
+@use '../../../../App/styles/mixins' as m;
 
 .thirdSection {
   display: flex;
@@ -38,7 +37,7 @@
       line-height: 1.5;
 
       & span {
-        color: $secondary;
+        color: c.$secondary;
       }
     }
 
@@ -48,7 +47,7 @@
     }
 
     &--link{
-      @include button-border;
+      @include m.button-border;
 
       text-decoration: none;
       color: #000000;
