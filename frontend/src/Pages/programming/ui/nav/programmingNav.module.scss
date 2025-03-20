@@ -1,0 +1,72 @@
+@use './../../../../Shared/styles/reusables' as styles;
+
+.programming {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+
+  &__nav {
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: styles.$list-secondary;
+    }
+
+    &--bar{
+      display: flex;
+      position: relative;
+
+    }
+  }
+
+  &__dropdown {
+    position: relative;
+
+    &-container {
+
+    }
+
+    :global(.rs-dropdown-toggle) {
+      font-size: 18px; // Увеличенный размер шрифта
+      padding: 12px 20px; // Увеличенные отступы
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      // Увеличиваем иконку стрелки
+      :global(.rs-dropdown-toggle-caret) {
+        top: 12px;
+        right: 20px;
+        font-size: 16px;
+        color: styles.$secondary
+      }
+    }
+
+    // Исправляем размер выпадающего меню
+    :global(.rs-dropdown-menu-items) {
+      width: 100%; // Ограничиваем ширину контейнера элементов
+    }
+
+    :global(.rs-dropdown-menu) {
+      position: absolute !important;
+      min-width: 0;
+      width: 80% !important; // Принудительно отменяем ширину
+      max-width: 150%; // Максимальная ширина не более 100% от родителя
+      left: 0;
+      right: auto;
+      list-style: none;
+      background-color: rgba(136, 136, 136, 0.23);
+      border-radius: 10px;
+      margin: 0;
+      z-index: 10;
+    }
+  }
+
+  &__dropdown-item {
+    font-size: 16px; // Увеличенный размер шрифта
+    padding-top: 5px;
+    white-space: nowrap;
+  }
+}
