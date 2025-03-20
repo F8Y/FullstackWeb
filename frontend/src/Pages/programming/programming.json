@@ -1,0 +1,53 @@
+{
+  "data": {
+    "webProgramming": {
+      "JavaScript": [
+        {
+          "title": "Js",
+          "subtitle": "js",
+          "description": "js",
+          "image": "https://",
+          "content": ""
+        },
+        {},
+        {}
+      ],
+      "Frameworks": [
+        {},
+        {},
+        {}
+      ],
+      "Golang": [
+        {},
+        {},
+        {}
+      ],
+      "PHP": [
+        {},
+        {},
+        {}
+      ],
+      "Ruby": [
+        {},
+        {},
+        {}
+      ]
+    },
+    "ObjectOrientedProgramming": {
+      "C++": [],
+      "Rust": [],
+      "Java": [],
+      "C#": []
+    },
+    "DataAnalyzing": {
+      "Fortran": [],
+      "Prolog": [],
+      "Python": []
+    },
+    "MobileProgramming": {
+      "Kotlin": [],
+      "Swift": [],
+      "Objective C": []
+    }
+  }
+}
