@@ -1,5 +1,5 @@
-import {FirstSection} from './ui/firstSection/firstSection.jsx'
-import {SecondSection} from './ui/secondSection/secondSection.jsx'
+import {FirstSection} from './ui/firstSection/firstSection.jsx';
+import {SecondSection} from './ui/secondSection/secondSection.jsx';
 import {ThirdSection} from "./ui/thirdSection/thirdSection.jsx";
 import PropTypes from "prop-types";
 import s from "./homePage.module.scss"
