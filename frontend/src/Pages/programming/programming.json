@@ -3,51 +3,370 @@
     "webProgramming": {
       "JavaScript": [
         {
-          "title": "Js",
-          "subtitle": "js",
-          "description": "js",
-          "image": "https://",
-          "content": ""
+          "title": "JavaScript - scripting language for your browsers",
+          "subtitle": "WEB-DEV",
+          "description": "Learn basics of JavaScript language",
+          "image": "https://sourcebae.com/blog/wp-content/uploads/2023/08/1665673562977-Best-way-to-learn-javascript.jpg",
+          "content": [
+            {
+              "resourceName": "W3 school",
+              "url": "https://w3school.com/js",
+              "paragraph": "Some text"
+            }
+          ]
         },
-        {},
-        {}
+        {
+          "title": "Node.js - JavaScript runtime",
+          "subtitle": "WEB-DEV",
+          "description": "Learn server-side JavaScript with Node.js",
+          "image": "https://c4.wallpaperflare.com/wallpaper/619/468/16/node-js-javascript-wallpaper-preview.jpg",
+          "content": [
+            {
+              "resourceName": "Node.js Official Docs",
+              "url": "https://nodejs.org/en/docs/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
       ],
       "Frameworks": [
-        {},
-        {},
-        {}
+        {
+          "title": "Angular",
+          "subtitle": "WEB-DEV",
+          "description": "A TypeScript-based open-source web application framework",
+          "image": "https://example.com/angular.png",
+          "content": [
+            {
+              "resourceName": "Angular Docs",
+              "url": "https://angular.io/docs",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Vue.js",
+          "subtitle": "WEB-DEV",
+          "description": "A progressive framework for building user interfaces",
+          "image": "https://example.com/vue.png",
+          "content": [
+            {
+              "resourceName": "Vue.js Docs",
+              "url": "https://vuejs.org/v2/guide/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Svelte",
+          "subtitle": "WEB-DEV",
+          "description": "A compiler for building user interfaces",
+          "image": "https://example.com/svelte.png",
+          "content": [
+            {
+              "resourceName": "Svelte Tutorial",
+              "url": "https://svelte.dev/tutorial",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "React js",
+          "subtitle": "WEB-DEV",
+          "description": "",
+          "image": "http://example.com/react.png",
+          "content": [
+            {
+              "resourceName": "React Tutorial",
+              "url": "https://reactjs.dev",
+              "paragraph": "Some text"
+            }
+          ]
+        }
       ],
       "Golang": [
-        {},
-        {},
-        {}
+        {
+          "title": "Introduction to Go",
+          "subtitle": "WEB-DEV",
+          "description": "Learn the basics of Go programming language",
+          "image": "https://example.com/go.png",
+          "content": [
+            {
+              "resourceName": "Go Official Docs",
+              "url": "https://golang.org/doc/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Building Web Apps with Go",
+          "subtitle": "WEB-DEV",
+          "description": "Explore web development with Go's net/http package",
+          "image": "https://example.com/go-web.png",
+          "content": [
+            {
+              "resourceName": "Go Web Examples",
+              "url": "https://gowebexamples.com/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Concurrency in Go",
+          "subtitle": "WEB-DEV",
+          "description": "Learn how to use goroutines and channels for concurrent programming",
+          "image": "https://example.com/go-concurrency.png",
+          "content": [
+            {
+              "resourceName": "Effective Go",
+              "url": "https://golang.org/doc/effective_go",
+              "paragraph": "Some text"
+            }
+          ]
+        }
       ],
       "PHP": [
-        {},
-        {},
-        {}
+        {
+          "title": "Introduction to PHP",
+          "subtitle": "WEB-DEV",
+          "description": "Server-side scripting language for web development",
+          "image": "https://example.com/php.png",
+          "content": [
+            {
+              "resourceName": "PHP Manual",
+              "url": "https://www.php.net/manual/en/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Laravel",
+          "subtitle": "WEB-DEV",
+          "description": "A popular PHP framework for web applications",
+          "image": "https://example.com/laravel.png",
+          "content": [
+            {
+              "resourceName": "Laravel Docs",
+              "url": "https://laravel.com/docs",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Symfony",
+          "subtitle": "WEB-DEV",
+          "description": "A set of reusable PHP components and a framework for web projects",
+          "image": "https://example.com/symfony.png",
+          "content": [
+            {
+              "resourceName": "Symfony Docs",
+              "url": "https://symfony.com/doc/current/index.html",
+              "paragraph": "Some text"
+            }
+          ]
+        }
       ],
       "Ruby": [
-        {},
-        {},
-        {}
+        {
+          "title": "Introduction to Ruby",
+          "subtitle": "WEB-DEV",
+          "description": "A dynamic, open source programming language with a focus on simplicity",
+          "image": "https://example.com/ruby.png",
+          "content": [
+            {
+              "resourceName": "Ruby Official Site",
+              "url": "https://www.ruby-lang.org/en/documentation/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Ruby on Rails",
+          "subtitle": "WEB-DEV",
+          "description": "A server-side web application framework written in Ruby",
+          "image": "https://example.com/rails.png",
+          "content": [
+            {
+              "resourceName": "Ruby on Rails Guides",
+              "url": "https://guides.rubyonrails.org/",
+              "paragraph": "Some text"
+            }
+          ]
+        },
+        {
+          "title": "Sinatra",
+          "subtitle": "WEB-DEV",
+          "description": "A DSL for quickly creating web applications in Ruby",
+          "image": "https://example.com/sinatra.png",
+          "content": [
+            {
+              "resourceName": "Sinatra README",
+              "url": "http://sinatrarb.com/intro.html",
+              "paragraph": "Some text"
+            }
+          ]
+        }
       ]
     },
     "ObjectOrientedProgramming": {
-      "C++": [],
-      "Rust": [],
-      "Java": [],
-      "C#": []
+      "C++": [
+        {
+          "title": "Learn C++ Basics",
+          "subtitle": "OOP",
+          "description": "Introduction to C++ syntax and concepts",
+          "image": "https://example.com/cpp.png",
+          "content": [
+            {
+              "resourceName": "C++ Reference",
+              "url": "https://en.cppreference.com/w/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Rust": [
+        {
+          "title": "Rust Ownership & Borrowing",
+          "subtitle": "OOP",
+          "description": "Learn Rust's unique approach to memory safety",
+          "image": "https://example.com/rust.png",
+          "content": [
+            {
+              "resourceName": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Java": [
+        {
+          "title": "Java Fundamentals",
+          "subtitle": "OOP",
+          "description": "Learn about Java syntax, OOP, and the JVM",
+          "image": "https://example.com/java.png",
+          "content": [
+            {
+              "resourceName": "Oracle Java Docs",
+              "url": "https://docs.oracle.com/en/java/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "C#": [
+        {
+          "title": "C# for Beginners",
+          "subtitle": "OOP",
+          "description": "Get started with C# and .NET",
+          "image": "https://example.com/csharp.png",
+          "content": [
+            {
+              "resourceName": "Microsoft C# Docs",
+              "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ]
     },
     "DataAnalyzing": {
-      "Fortran": [],
-      "Prolog": [],
-      "Python": []
+      "Fortran": [
+        {
+          "title": "Fortran Basics",
+          "subtitle": "Data Analysis",
+          "description": "Legacy language for scientific computing",
+          "image": "https://example.com/fortran.png",
+          "content": [
+            {
+              "resourceName": "Fortran Wiki",
+              "url": "http://fortranwiki.org/fortran/show/HomePage",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Prolog": [
+        {
+          "title": "Prolog Fundamentals",
+          "subtitle": "Data Analysis",
+          "description": "Logic programming language for AI and data manipulation",
+          "image": "https://example.com/prolog.png",
+          "content": [
+            {
+              "resourceName": "SWI-Prolog Docs",
+              "url": "https://www.swi-prolog.org/pldoc/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Python": [
+        {
+          "title": "Python for Data Analysis",
+          "subtitle": "Data Analysis",
+          "description": "Learn how to use Python libraries like NumPy and pandas",
+          "image": "https://example.com/python.png",
+          "content": [
+            {
+              "resourceName": "Python Docs",
+              "url": "https://docs.python.org/3/",
+              "paragraph": "Some text"
+            },
+            {
+              "resourceName": "pandas Docs",
+              "url": "https://pandas.pydata.org/docs/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ]
     },
     "MobileProgramming": {
-      "Kotlin": [],
-      "Swift": [],
-      "Objective C": []
+      "Kotlin": [
+        {
+          "title": "Kotlin for Android",
+          "subtitle": "Mobile",
+          "description": "Learn Kotlin, the official language for Android development",
+          "image": "https://example.com/kotlin.png",
+          "content": [
+            {
+              "resourceName": "Kotlin Docs",
+              "url": "https://kotlinlang.org/docs/home.html",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Swift": [
+        {
+          "title": "Swift for iOS",
+          "subtitle": "Mobile",
+          "description": "Learn Swift, Apple's programming language for iOS development",
+          "image": "https://example.com/swift.png",
+          "content": [
+            {
+              "resourceName": "Swift Docs",
+              "url": "https://docs.swift.org/swift-book/",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ],
+      "Objective C": [
+        {
+          "title": "Objective-C Basics",
+          "subtitle": "Mobile",
+          "description": "Legacy language for iOS and macOS development",
+          "image": "https://example.com/objective-c.png",
+          "content": [
+            {
+              "resourceName": "Objective-C Reference",
+              "url": "https://developer.apple.com/documentation/objectivec",
+              "paragraph": "Some text"
+            }
+          ]
+        }
+      ]
     }
   }
 }
