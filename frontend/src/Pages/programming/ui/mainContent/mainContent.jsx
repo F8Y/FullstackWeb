@@ -1,11 +1,12 @@
 import s from './mainContent.module.scss';
-import { Dropdown } from "rsuite";
+import { ContentBlock } from '../contentBlock/contentBlock.jsx';
 
-export const MainContent = () => {
+export const MainContent = ({ category, language, className }) => {
     return (
-        <div>
-
+        <div className={className}>
+            <main className={s['mainContent__content']}>
+                <ContentBlock category={category} language={language} />
+            </main>
         </div>
     );
 };
-
