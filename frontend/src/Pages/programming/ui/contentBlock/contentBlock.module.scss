@@ -1,2 +1,54 @@
 @use '../../../../Shared/styles/reusables' as styles;
 
+.contentBlock {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+  &__block {
+    width: 450px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    &--text{
+      border:none;
+      width: 100%;
+      background: #444040;
+      margin-top: -15px;
+      padding: 15px 0 25px 0;
+
+      h2 {
+        color: styles.$secondary;
+        font-size: 18px;
+        margin-left: 10px;
+      }
+
+      h3 {
+        color: styles.$content-block;
+        font-size: 15px;
+        margin-top: 8px;
+        margin-left: 10px;
+      }
+
+      p {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
