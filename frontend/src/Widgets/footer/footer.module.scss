@@ -1,4 +1,4 @@
-@import '../../App/styles/colors';
+@use '../../Shared/styles/reusables' as styles;
 
 * {
   margin-bottom: 0;
@@ -16,7 +16,7 @@
     gap: 20vh;
 
     & h2{
-      color: $secondary;
+      color: styles.$secondary;
       font-size: 18px;
       text-decoration-line: underline;
       text-decoration-style: solid;
