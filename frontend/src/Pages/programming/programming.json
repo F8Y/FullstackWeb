@@ -34,7 +34,7 @@
           "title": "Angular",
           "subtitle": "WEB-DEV",
           "description": "A TypeScript-based open-source web application framework",
-          "image": "https://example.com/angular.png",
+          "image": "https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2023/2023-11/angular-logo-1200-628.png?sfvrsn=bf64b1ee_3",
           "content": [
             {
               "resourceName": "Angular Docs",
@@ -47,7 +47,7 @@
           "title": "Vue.js",
           "subtitle": "WEB-DEV",
           "description": "A progressive framework for building user interfaces",
-          "image": "https://example.com/vue.png",
+          "image": "https://res.cloudinary.com/dthpnue1d/image/upload/v1721280711/Overview_of_Vue_js_5098293b60.jpg",
           "content": [
             {
               "resourceName": "Vue.js Docs",
@@ -60,7 +60,7 @@
           "title": "Svelte",
           "subtitle": "WEB-DEV",
           "description": "A compiler for building user interfaces",
-          "image": "https://example.com/svelte.png",
+          "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fun1vp3qoyd13gznq1pvt.png",
           "content": [
             {
               "resourceName": "Svelte Tutorial",
@@ -72,8 +72,8 @@
         {
           "title": "React js",
           "subtitle": "WEB-DEV",
-          "description": "",
-          "image": "http://example.com/react.png",
+          "description": "React JS - a JavaScript library for building user interfaces",
+          "image": "https://i.pinimg.com/736x/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg",
           "content": [
             {
               "resourceName": "React Tutorial",
@@ -88,7 +88,7 @@
           "title": "Introduction to Go",
           "subtitle": "WEB-DEV",
           "description": "Learn the basics of Go programming language",
-          "image": "https://example.com/go.png",
+          "image": "https://miro.medium.com/v2/resize:fit:1400/1*9NZ5nSFQjO_tIvUdOy2d6Q.jpeg",
           "content": [
             {
               "resourceName": "Go Official Docs",
@@ -101,7 +101,7 @@
           "title": "Building Web Apps with Go",
           "subtitle": "WEB-DEV",
           "description": "Explore web development with Go's net/http package",
-          "image": "https://example.com/go-web.png",
+          "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Foql0u0lpw1w7db3lxeee.png",
           "content": [
             {
               "resourceName": "Go Web Examples",
@@ -114,7 +114,7 @@
           "title": "Concurrency in Go",
           "subtitle": "WEB-DEV",
           "description": "Learn how to use goroutines and channels for concurrent programming",
-          "image": "https://example.com/go-concurrency.png",
+          "image": "https://miro.medium.com/v2/resize:fit:1400/1*8yR5XX10VT84scHQmm39Dg.png",
           "content": [
             {
               "resourceName": "Effective Go",
@@ -129,7 +129,7 @@
           "title": "Introduction to PHP",
           "subtitle": "WEB-DEV",
           "description": "Server-side scripting language for web development",
-          "image": "https://example.com/php.png",
+          "image": "https://picperf.io/https://laravelnews.s3.amazonaws.com/images/phplogo.jpg",
           "content": [
             {
               "resourceName": "PHP Manual",
@@ -142,7 +142,7 @@
           "title": "Laravel",
           "subtitle": "WEB-DEV",
           "description": "A popular PHP framework for web applications",
-          "image": "https://example.com/laravel.png",
+          "image": "https://cdn.hdwebsoft.com/wp-content/uploads/2021/11/Thiet-ke-chua-co-ten-4.jpg.webp",
           "content": [
             {
               "resourceName": "Laravel Docs",
@@ -155,7 +155,7 @@
           "title": "Symfony",
           "subtitle": "WEB-DEV",
           "description": "A set of reusable PHP components and a framework for web projects",
-          "image": "https://example.com/symfony.png",
+          "image": "https://www.itsolutionstuff.com/upload/ezgif-Symfony.jpg",
           "content": [
             {
               "resourceName": "Symfony Docs",
@@ -170,7 +170,7 @@
           "title": "Introduction to Ruby",
           "subtitle": "WEB-DEV",
           "description": "A dynamic, open source programming language with a focus on simplicity",
-          "image": "https://example.com/ruby.png",
+          "image": "https://www.devteam.space/wp-content/uploads/2022/05/What-is-Ruby.jpg",
           "content": [
             {
               "resourceName": "Ruby Official Site",
@@ -183,7 +183,7 @@
           "title": "Ruby on Rails",
           "subtitle": "WEB-DEV",
           "description": "A server-side web application framework written in Ruby",
-          "image": "https://example.com/rails.png",
+          "image": "https://d32myzxfxyl12w.cloudfront.net/images/blog_images/3f9a4a47edcd41fc111e5c994bc21ce0991b52f0.webp?1702029971",
           "content": [
             {
               "resourceName": "Ruby on Rails Guides",
@@ -196,7 +196,7 @@
           "title": "Sinatra",
           "subtitle": "WEB-DEV",
           "description": "A DSL for quickly creating web applications in Ruby",
-          "image": "https://example.com/sinatra.png",
+          "image": "https://opengraph.githubassets.com/4a0115c611925089ea591bb6a0b9e8286e1d3f9868fb3c45c282ad03844ba125/sinatra/sinatra",
           "content": [
             {
               "resourceName": "Sinatra README",
@@ -213,7 +213,7 @@
           "title": "Learn C++ Basics",
           "subtitle": "OOP",
           "description": "Introduction to C++ syntax and concepts",
-          "image": "https://example.com/cpp.png",
+          "image": "https://miro.medium.com/v2/resize:fit:1400/1*ImTT0nd7BZUPe3S8XS_juA.png",
           "content": [
             {
               "resourceName": "C++ Reference",
@@ -228,7 +228,7 @@
           "title": "Rust Ownership & Borrowing",
           "subtitle": "OOP",
           "description": "Learn Rust's unique approach to memory safety",
-          "image": "https://example.com/rust.png",
+          "image": "https://opensource.com/sites/default/files/lead-images/rust_programming_crab_sea.png",
           "content": [
             {
               "resourceName": "The Rust Programming Language",
@@ -243,7 +243,7 @@
           "title": "Java Fundamentals",
           "subtitle": "OOP",
           "description": "Learn about Java syntax, OOP, and the JVM",
-          "image": "https://example.com/java.png",
+          "image": "https://4matt.com.br/wp-content/uploads/2021/06/Copy-of-Template-Imagem-Post-1.png",
           "content": [
             {
               "resourceName": "Oracle Java Docs",
@@ -258,7 +258,7 @@
           "title": "C# for Beginners",
           "subtitle": "OOP",
           "description": "Get started with C# and .NET",
-          "image": "https://example.com/csharp.png",
+          "image": "https://www.pragimtech.com/wp-content/uploads/2019/02/c.jpg",
           "content": [
             {
               "resourceName": "Microsoft C# Docs",
@@ -275,7 +275,7 @@
           "title": "Fortran Basics",
           "subtitle": "Data Analysis",
           "description": "Legacy language for scientific computing",
-          "image": "https://example.com/fortran.png",
+          "image": "https://i0.wp.com/erainnovator.com/wp-content/uploads/2021/05/Fortran-Programming-Language.png?resize=930%2C620&ssl=1",
           "content": [
             {
               "resourceName": "Fortran Wiki",
@@ -290,7 +290,7 @@
           "title": "Prolog Fundamentals",
           "subtitle": "Data Analysis",
           "description": "Logic programming language for AI and data manipulation",
-          "image": "https://example.com/prolog.png",
+          "image": "https://miro.medium.com/v2/resize:fit:1200/0*vHfPy3JoH1cSyPGZ.png",
           "content": [
             {
               "resourceName": "SWI-Prolog Docs",
@@ -305,7 +305,7 @@
           "title": "Python for Data Analysis",
           "subtitle": "Data Analysis",
           "description": "Learn how to use Python libraries like NumPy and pandas",
-          "image": "https://example.com/python.png",
+          "image": "https://projects-static.raspberrypi.org/collections/assets/python_placeholder.png",
           "content": [
             {
               "resourceName": "Python Docs",
@@ -327,7 +327,7 @@
           "title": "Kotlin for Android",
           "subtitle": "Mobile",
           "description": "Learn Kotlin, the official language for Android development",
-          "image": "https://example.com/kotlin.png",
+          "image": "https://www.jrebel.com/sites/default/files/styles/social_preview_image/public/image/2021-01/what%20is%20kotlin%20banner%20image.png?itok=5fXxsx8f",
           "content": [
             {
               "resourceName": "Kotlin Docs",
@@ -342,7 +342,7 @@
           "title": "Swift for iOS",
           "subtitle": "Mobile",
           "description": "Learn Swift, Apple's programming language for iOS development",
-          "image": "https://example.com/swift.png",
+          "image": "https://miro.medium.com/v2/resize:fit:750/1*OgeU8HPo8TFF1cZQ-4XjJw.jpeg",
           "content": [
             {
               "resourceName": "Swift Docs",
@@ -357,7 +357,7 @@
           "title": "Objective-C Basics",
           "subtitle": "Mobile",
           "description": "Legacy language for iOS and macOS development",
-          "image": "https://example.com/objective-c.png",
+          "image": "https://technocometsolutions.com/wp-content/uploads/2022/04/Objective-C-with-iOS.jpg",
           "content": [
             {
               "resourceName": "Objective-C Reference",
