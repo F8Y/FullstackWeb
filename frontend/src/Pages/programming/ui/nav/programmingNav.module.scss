@@ -29,13 +29,13 @@
     }
 
     :global(.rs-dropdown-toggle) {
-      font-size: 18px; // Увеличенный размер шрифта
-      padding: 12px 20px; // Увеличенные отступы
+      font-size: 18px;
+      padding: 12px 20px;
       border: none;
       background: none;
       cursor: pointer;
 
-      // Увеличиваем иконку стрелки
+
       :global(.rs-dropdown-toggle-caret) {
         top: 12px;
         right: 20px;
@@ -44,16 +44,15 @@
       }
     }
 
-    // Исправляем размер выпадающего меню
     :global(.rs-dropdown-menu-items) {
-      width: 100%; // Ограничиваем ширину контейнера элементов
+      width: 100%;
     }
 
     :global(.rs-dropdown-menu) {
       position: absolute !important;
       min-width: 0;
-      width: 80% !important; // Принудительно отменяем ширину
-      max-width: 150%; // Максимальная ширина не более 100% от родителя
+      width: 80% !important;
+      max-width: 150%;
       left: 0;
       right: auto;
       list-style: none;
@@ -62,10 +61,23 @@
       margin: 0;
       z-index: 10;
     }
+
+    :global(.rs-dropdown-item) {
+      cursor: pointer;
+
+      &:active {
+        color: styles.$secondary;
+      }
+
+      &:hover {
+        cursor: pointer;
+        filter: brightness(2);
+      }
+    }
   }
 
   &__dropdown-item {
-    font-size: 16px; // Увеличенный размер шрифта
+    font-size: 16px;
     padding-top: 5px;
     white-space: nowrap;
   }
