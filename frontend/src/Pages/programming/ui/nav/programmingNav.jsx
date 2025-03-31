@@ -1,12 +1,7 @@
-// programmingNav.jsx
 import s from './programmingNav.module.scss';
 import { Dropdown, ButtonToolbar } from "rsuite";
 import { navData } from "./navData.js";
 
-/**
- * Соответствие "человекочитаемых" заголовков и ключей в JSON.
- * Важно, чтобы названия точно совпадали с тем, что в navData.
- */
 const categoryMap = {
     'Web programming': 'webProgramming',
     'Object-oriented programming': 'ObjectOrientedProgramming',
@@ -14,11 +9,6 @@ const categoryMap = {
     'Mobile programming': 'MobileProgramming'
 };
 
-/**
- * Иногда в navData встречается "FrameWorks",
- * а в JSON — "Frameworks" (без заглавной 'W').
- * Подобные расхождения тоже стоит учесть.
- */
 const languageMap = {
     'FrameWorks': 'Frameworks'
 };
@@ -48,8 +38,6 @@ export const ProgrammingNav = ({ onSelect, className }) => (
                                         <Dropdown.Item
                                             key={idx}
                                             className={s['programming__dropdown-item']}
-                                            // По клику (onSelect) вызываем колбэк, передавая
-                                            // ключ категории и реальное название языка
                                             onSelect={() => onSelect(categoryKey, normalizedItem)}
                                         >
                                             {item}
