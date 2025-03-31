@@ -1,4 +1,6 @@
-@import '../../App/styles/mixins';
+@use '../../Shared/styles/reusables' as styles;
+
+
 
 .header {
   display: flex;
@@ -6,11 +8,17 @@
   gap: 55vh;
   padding-top: 5px;
 
+  .activeLink {
+    color: styles.$secondary;
+  }
+
+
   &__image {
     width: 80px;
     height: 50px;
     padding: 8px 0 0 0;
   }
+
 
   &__navigationBar{
 
@@ -29,7 +37,7 @@
         }
 
         &:last-child{
-          @include button-border;
+          @include styles.button-border;
 
           & a{
             color: black;
