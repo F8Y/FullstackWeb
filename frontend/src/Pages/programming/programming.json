@@ -3,6 +3,7 @@
     "webProgramming": {
       "JavaScript": [
         {
+          "key": "JavaScript",
           "title": "JavaScript - scripting language for your browsers",
           "subtitle": "WEB-DEV",
           "description": "Learn basics of JavaScript language",
@@ -16,6 +17,7 @@
           ]
         },
         {
+          "key": "Node.js",
           "title": "Node.js - JavaScript runtime",
           "subtitle": "WEB-DEV",
           "description": "Learn server-side JavaScript with Node.js",
@@ -31,6 +33,7 @@
       ],
       "Frameworks": [
         {
+          "key": "Angular",
           "title": "Angular",
           "subtitle": "WEB-DEV",
           "description": "A TypeScript-based open-source web application framework",
@@ -44,6 +47,7 @@
           ]
         },
         {
+          "key": "Vue.js",
           "title": "Vue.js",
           "subtitle": "WEB-DEV",
           "description": "A progressive framework for building user interfaces",
@@ -57,6 +61,7 @@
           ]
         },
         {
+          "key": "Svelte",
           "title": "Svelte",
           "subtitle": "WEB-DEV",
           "description": "A compiler for building user interfaces",
@@ -70,6 +75,7 @@
           ]
         },
         {
+          "key": "React.js",
           "title": "React js",
           "subtitle": "WEB-DEV",
           "description": "React JS - a JavaScript library for building user interfaces",
@@ -85,6 +91,7 @@
       ],
       "Golang": [
         {
+          "key": "Go.intro",
           "title": "Introduction to Go",
           "subtitle": "WEB-DEV",
           "description": "Learn the basics of Go programming language",
@@ -98,6 +105,7 @@
           ]
         },
         {
+          "key": "Go.building",
           "title": "Building Web Apps with Go",
           "subtitle": "WEB-DEV",
           "description": "Explore web development with Go's net/http package",
@@ -111,6 +119,7 @@
           ]
         },
         {
+          "key": "Go.concurrency",
           "title": "Concurrency in Go",
           "subtitle": "WEB-DEV",
           "description": "Learn how to use goroutines and channels for concurrent programming",
@@ -126,6 +135,7 @@
       ],
       "PHP": [
         {
+          "key": "PHP",
           "title": "Introduction to PHP",
           "subtitle": "WEB-DEV",
           "description": "Server-side scripting language for web development",
@@ -139,6 +149,7 @@
           ]
         },
         {
+          "key": "Laravel",
           "title": "Laravel",
           "subtitle": "WEB-DEV",
           "description": "A popular PHP framework for web applications",
@@ -152,6 +163,7 @@
           ]
         },
         {
+          "key": "Symfony",
           "title": "Symfony",
           "subtitle": "WEB-DEV",
           "description": "A set of reusable PHP components and a framework for web projects",
@@ -167,6 +179,7 @@
       ],
       "Ruby": [
         {
+          "key": "Ruby.intro",
           "title": "Introduction to Ruby",
           "subtitle": "WEB-DEV",
           "description": "A dynamic, open source programming language with a focus on simplicity",
@@ -180,6 +193,7 @@
           ]
         },
         {
+          "key": "Rails",
           "title": "Ruby on Rails",
           "subtitle": "WEB-DEV",
           "description": "A server-side web application framework written in Ruby",
@@ -193,6 +207,7 @@
           ]
         },
         {
+          "key": "Sinatra",
           "title": "Sinatra",
           "subtitle": "WEB-DEV",
           "description": "A DSL for quickly creating web applications in Ruby",
@@ -210,6 +225,7 @@
     "ObjectOrientedProgramming": {
       "C++": [
         {
+          "key": "C++",
           "title": "Learn C++ Basics",
           "subtitle": "OOP",
           "description": "Introduction to C++ syntax and concepts",
@@ -225,6 +241,7 @@
       ],
       "Rust": [
         {
+          "key": "Rust",
           "title": "Rust Ownership & Borrowing",
           "subtitle": "OOP",
           "description": "Learn Rust's unique approach to memory safety",
@@ -240,6 +257,7 @@
       ],
       "Java": [
         {
+          "key": "Java",
           "title": "Java Fundamentals",
           "subtitle": "OOP",
           "description": "Learn about Java syntax, OOP, and the JVM",
@@ -255,6 +273,7 @@
       ],
       "C#": [
         {
+          "key": "C#",
           "title": "C# for Beginners",
           "subtitle": "OOP",
           "description": "Get started with C# and .NET",
@@ -272,6 +291,7 @@
     "DataAnalyzing": {
       "Fortran": [
         {
+          "key": "Fortran",
           "title": "Fortran Basics",
           "subtitle": "Data Analysis",
           "description": "Legacy language for scientific computing",
@@ -287,6 +307,7 @@
       ],
       "Prolog": [
         {
+          "key": "Prolog",
           "title": "Prolog Fundamentals",
           "subtitle": "Data Analysis",
           "description": "Logic programming language for AI and data manipulation",
@@ -302,6 +323,7 @@
       ],
       "Python": [
         {
+          "key": "Python",
           "title": "Python for Data Analysis",
           "subtitle": "Data Analysis",
           "description": "Learn how to use Python libraries like NumPy and pandas",
@@ -324,6 +346,7 @@
     "MobileProgramming": {
       "Kotlin": [
         {
+          "key": "Kotlin",
           "title": "Kotlin for Android",
           "subtitle": "Mobile",
           "description": "Learn Kotlin, the official language for Android development",
@@ -339,6 +362,7 @@
       ],
       "Swift": [
         {
+          "key": "Swift",
           "title": "Swift for iOS",
           "subtitle": "Mobile",
           "description": "Learn Swift, Apple's programming language for iOS development",
@@ -354,6 +378,7 @@
       ],
       "Objective C": [
         {
+          "key": "C",
           "title": "Objective-C Basics",
           "subtitle": "Mobile",
           "description": "Legacy language for iOS and macOS development",
