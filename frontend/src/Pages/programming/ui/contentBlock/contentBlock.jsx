@@ -20,7 +20,7 @@ export const ContentBlock = ({ category, language }) => {
             {contentBlocks.map((block, index) => (
                 <div key={index} className={s['contentBlock__block']}>
                     {block.image && (
-                        <NavLink to="/inf">
+                        <NavLink to="/inf" state={{ language, key: block.key }}>
                             <img src={block.image} alt={block.title} />
                         </NavLink>
                     )}
