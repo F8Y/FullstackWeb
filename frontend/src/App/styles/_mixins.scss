@@ -9,3 +9,13 @@
   background-color: c.$secondary;
   box-shadow: 0 0 20px 4px c.$secondary;
 }
+
+@mixin button-active {
+  border-top: 6px solid c.$button-active;
+  border-bottom: 6px solid c.$button-active;
+  border-left: 25px solid c.$button-active;
+  border-right: 25px solid c.$button-active;
+  border-radius: 9999px;
+  background-color: c.$button-active;
+  box-shadow: 0 0 20px 4px c.$button-active;
+}
