@@ -4,6 +4,8 @@
 
   h1 {
     text-align: center;
+    font-size: 30px;
+    color: styles.$secondary
   }
 
   &__content {
@@ -14,6 +16,7 @@
       flex: 1;
 
       &--title {
+        font-size: 20px;
 
         h2 {
           font-size: 18px;
