@@ -1,1 +1,36 @@
 @use '../../../../Shared/styles/reusables' as styles;
+
+.informationPage {
+
+  h1 {
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    margin-top: 10px;
+
+    &__text {
+      flex: 1;
+
+      &--title {
+
+        h2 {
+          font-size: 18px;
+          opacity: 70%;
+        }
+      }
+    }
+
+    &--image {
+      width: 100vh;
+      height: 50vh;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+}

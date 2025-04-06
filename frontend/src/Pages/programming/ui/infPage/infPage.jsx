@@ -63,27 +63,42 @@ export const InfPage = () => {
 
     return (
         <div className={s['informationPage']}>
-            <div className={s['']}>
-                <h1>{content.subtitle}</h1>
-                <h2>{content.title}</h2>
-                <img src={content.image} alt={undefined}/>
-                <p>{content.description}</p>
-            </div>
-            <div>
-                {content.content && content.content.map((item, idx) => (
-                    <div key={idx}>
-                        {item.paragraph && <p>{item.paragraph}</p>}
-                        {item.resourceName && item.url && (
-                            <a
-                                href={item.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {item.resourceName}
-                            </a>
-                        )}
+
+            <h1>{content.title}</h1>
+
+            <div className={s['informationPage__content']}>
+
+                <div className={s['informationPage__content__text']}>
+
+                    <div className={s['informationPage__content__text--title']}>
+
+                        <h2>{content.subtitle}</h2>
+                        <p>{content.description}</p>
+
                     </div>
-                ))}
+
+                    {content.content && content.content.map((item, idx) => (
+                        <div key={idx}>
+                            {item.paragraph && <p>{item.paragraph}</p>}
+                            {item.resourceName && item.url && (
+                                <a
+                                    href={item.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {item.resourceName}
+                                </a>
+                            )}
+                        </div>
+                    ))}
+
+                </div>
+
+                <div className={s['informationPage__content--image']}>
+
+                    <img src={content.image} alt={undefined}/>
+
+                </div>
             </div>
         </div>
     );
