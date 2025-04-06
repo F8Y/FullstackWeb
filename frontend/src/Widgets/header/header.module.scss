@@ -12,6 +12,17 @@
     color: styles.$secondary;
   }
 
+  .notActiveYandex {
+    @include styles.button-border;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .activeYandex {
+    @include styles.button-active;
+    color: styles.$yandex-active;
+    font-weight: bold;
+  }
 
   &__image {
     width: 80px;
@@ -36,13 +47,13 @@
           color: #ffffff;
         }
 
-        &:last-child{
-          @include styles.button-border;
-
-          & a{
-            color: black;
-          }
-        }
+        //&:last-child{
+        //  @include styles.button-border;
+        //
+        //  & a{
+        //    color: black;
+        //  }
+        //}
       }
     }
   }
