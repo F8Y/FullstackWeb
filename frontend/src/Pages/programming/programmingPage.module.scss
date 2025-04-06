@@ -1,2 +1,8 @@
 @use '../../Shared/styles/reusables' as styles;
 
+.programmingPage {
+
+  &__main {
+    margin-bottom: 20px;
+  }
+}

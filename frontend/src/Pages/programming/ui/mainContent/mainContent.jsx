@@ -1,5 +1,6 @@
 import s from './mainContent.module.scss';
 import { ContentBlock } from '../contentBlock/contentBlock.jsx';
+import PropTypes from "prop-types";
 
 export const MainContent = ({ category, language, className }) => {
     return (
@@ -9,4 +10,10 @@ export const MainContent = ({ category, language, className }) => {
             </main>
         </div>
     );
+};
+
+MainContent.propTypes = {
+    category : PropTypes.string,
+    language: PropTypes.string,
+    className: PropTypes.string
 };
