@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import s from './header.module.scss';
 import '../../App/styles/global.scss';
 import festuLogo from '../../img/assets/festuLogo.png';
+import clsx from "clsx";
 
 export const Header = () => {
     return (
@@ -14,7 +15,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/"
-                            className={({ isActive }) => isActive ? s.activeLink : undefined}
+                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
                         >
                             HOME
                         </NavLink>
@@ -22,7 +23,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/faq"
-                            className={({ isActive }) => isActive ? s.activeLink : undefined}
+                            className={({ isActive }) => clsx({ [s.activeLink ]: isActive })}
                         >
                             FAQ
                         </NavLink>
@@ -30,7 +31,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/schedule"
-                            className={({ isActive }) => isActive ? s.activeLink : "fff"}
+                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
                         >
                             SCHEDULE
                         </NavLink>
@@ -38,7 +39,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/disciplines"
-                            className={({ isActive }) => isActive ? s.activeLink : undefined}
+                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
                         >
                             DISCIPLINES
                         </NavLink>
@@ -46,7 +47,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/programming"
-                            className={({ isActive }) => isActive ? s.activeLink : undefined}
+                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
                         >
                             PROGRAMMING
                         </NavLink>
@@ -54,7 +55,7 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/yagpt"
-                            className={({ isActive }) => isActive ? s.activeLink : undefined}
+                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
                         >
                             YaGPT
                         </NavLink>
