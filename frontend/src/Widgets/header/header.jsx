@@ -55,7 +55,10 @@ export const Header = () => {
                     <li>
                         <NavLink
                             to="/yagpt"
-                            className={({ isActive }) => clsx({ [s.activeLink]: isActive })}
+                            className={({ isActive }) => clsx(
+                                    { [s.activeYandex]: isActive },
+                                    { [s.notActiveYandex]: !isActive },
+                                )}
                         >
                             YaGPT
                         </NavLink>
