@@ -78,7 +78,7 @@ export const InfPage = () => {
                     </div>
 
                     {content.content && content.content.map((item, idx) => (
-                        <div key={idx}>
+                        <div key={idx} className={s['informationPage__content__text--link']}>
                             {item.paragraph && <p>{item.paragraph}</p>}
                             {item.resourceName && item.url && (
                                 <a
@@ -86,7 +86,7 @@ export const InfPage = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    {item.resourceName}
+                                    Ознакомиться
                                 </a>
                             )}
                         </div>
