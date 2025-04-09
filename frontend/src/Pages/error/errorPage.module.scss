@@ -1,0 +1,47 @@
+@use '../../Shared/styles/reusables' as styles;
+
+.errorPage {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  height: auto;
+
+
+  span {
+    font-size: 80px;
+    font-weight: bold;
+
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  &--link {
+    text-decoration: none;
+    @include styles.button-active;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+  }
+
+  &--link:hover{
+    @include styles.button-border;
+    color: styles.$yandex-active;
+  }
+}
