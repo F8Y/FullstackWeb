@@ -11,7 +11,7 @@
           "content": [
             {
               "resourceName": "W3 school",
-              "url": "https://w3school.com/js",
+              "url": "https://w3schools.com/js",
               "paragraph": "In this course you will learn basics of JavaScript language and begin ready for add interractive elements to your website application also you will be able to next step in your programming studying program - TypeScript"
             }
           ]
@@ -332,11 +332,6 @@
             {
               "resourceName": "Python Docs",
               "url": "https://docs.python.org/3/",
-              "paragraph": "Some text"
-            },
-            {
-              "resourceName": "pandas Docs",
-              "url": "https://pandas.pydata.org/docs/",
               "paragraph": "Some text"
             }
           ]
