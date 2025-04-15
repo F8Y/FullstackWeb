@@ -21,7 +21,9 @@ export const ThirdSection = ({className}) => {
                     дисциплинам направления, языкам программирования, а
                     также возможность использования нейросети от Yandex!</p>
                     <a
-                        href = '/public'
+                        href = 'https://store.steampowered.com/app/3164500/Schedule_I/'
+                        target='_blank'
+                        rel = 'noopener norefferer'
                         className={s['thirdSection__text--link']}
                     >
                         Ознакомиться
